@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+    </head>
+    <body>
+       <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../images/unal.png" style="max-height: 75px; margin: 0px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <form class="d-flex ms-auto" >
+                    <input class="form-control me-2" type="text" placeholder="Ara">
+                    <button class="btn btn-primary" type="button">Ara</button>
+                </form>
+                <div class="col-sm-2 ms-auto">
+                  <a href="#"><img src="../images/tr_bayrak.png" style="float: left; width: 100%; max-width: 51px; height: 35px; margin: auto;"></a>
+                  <a href="main_ENU.html"><img src="../images/en_bayrak.png" style="float: left; width: 100%; max-width: 55px; height: 35px; margin: auto;"></a>
+                  <div style="clear: both;"></div>
+                </div>
+                <div  style="float: left; ">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" style="margin-bottom: 12px;" href="sepetU.html">Sepet</a>
+                      </li>
+                </div>
+                <div  class="mb-2">
+                    <li class="nav-item dropdown  ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="../images/1.jpeg" alt="Logo" style="width:30px; margin-right:4px ;" class="rounded-pill">Kenan</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../main.html">Çıkış Yap</a></li>
+                        </ul>
+                      </li>
+                </div>
+              </div>
+              
+            </div>
+          </nav>
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark " style="padding: 0px;" >
+  <div class="container-fluid" >
+    <div class="collapse navbar-collapse" id="collapsibleNavbar"  >
+      <ul class="navbar-nav">
+        <li class="nav-item" >
+          <a class="nav-link" href="mainU.html">ANASAYFA</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kadinU.html">KADIN</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="erkekU.html">ERKEK</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="cocukU.html">ÇOÇUK</a>
+      </li>
+    
+      <li class="nav-item">
+          <a class="nav-link" href="sporMalzemeleriU.html">SPOR MALZEMELERİ</a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+           <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="max-width: 700px; margin: auto;">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img  class="d-block w-100" src="../images/puma_erkek.jpeg" alt="Los Angeles" class="d-block" style="width:100%; max-width: 700px; max-height: 550px;">
+      </div>
+      <div class="carousel-item">
+        <img  class="d-block w-100" src="../images/puma_kadin.jpeg" alt="Chicago" class="d-block" style="width:100%;max-width: 700px; max-height: 550px">
+      </div>
+      <div class="carousel-item">
+        <img  class="d-block w-100" src="../images/cocuk.jpeg" alt="New York" class="d-block" style="width:100%;max-width: 700px; max-height: 550px">
+      </div>
+      <div class="carousel-item">
+        <img  class="d-block w-100" src="../images/kiz_cocuk.jpeg" alt="New York" class="d-block" style="width:100%;max-width: 700px; max-height: 550px">
+      </div>
+      <div class="carousel-item">
+        <img  class="d-block w-100" src="../images/top.jpeg" alt="New York" class="d-block" style="width:100%;max-width: 700px; max-height: 550px">
+      </div>
+
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="container" style="border: 2px solid black;">
+    <div class="row">
+      
+          <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+            <img class="card-img-top" src="../images/nike_erkek.jpeg" alt="Card image" style="width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title">NIKE</h4>
+              <p class="card-text">Nike erkek ayakkabısı</p>
+              <p class="card-text">889.90TL</p>
+          </div>
+        </div>
+        <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+          <img class="card-img-top" src="../images/puma_erkek.jpeg" alt="Card image" style="width: 100%;">
+          <div class="card-body">
+            <h4 class="card-title">PUMA</h4>
+            <p class="card-text">Puma erkek ayakkabısı</p>
+            <p class="card-text">859.90TL</p>
+        </div>
+      </div>
+      <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+        <img class="card-img-top" src="../images/adidas_erkek.jpeg" alt="Card image" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">ADIDAS</h4>
+          <p class="card-text">Adidas erkek ayakkabısı</p>
+          <p class="card-text">799.90TL</p>
+      </div>
+    </div>
+    <div class="card container" style="width:100%; max-width:300px; "onclick="location.href='ayrintiU.html'">
+      <img class="card-img-top" src="../images/hummel_erkek.jpeg" alt="Card image" style="width: 100%;">
+      <div class="card-body">
+        <h4 class="card-title">HUMMEL</h4>
+        <p class="card-text">Hummel erkek ayakkabısı</p>
+        <p class="card-text">699.90TL</p>
+    </div>
+  </div>
+        <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+          <img class="card-img-top" src="../images/nike_kadin.jpeg" alt="Card image" style="width: 100%;">
+          <div class="card-body">
+            <h4 class="card-title">NIKE</h4>
+            <p class="card-text">Nike kadın ayakkabısı</p>
+            <p class="card-text">799.90</p>
+        </div>
+      </div>
+      <div class="card container" style="width:100%; max-width:300px; "onclick="location.href='ayrintiU.html'">
+        <img class="card-img-top" src="../images/puma_kadin.jpeg" alt="Card image" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">PUMA</h4>
+          <p class="card-text">Puma kadın ayakkabısı</p>
+          <p class="card-text">789.90TL</p>
+      </div>
+    </div>
+    <div class="card container" style="width:100%; max-width:300px; "onclick="location.href='ayrintiU.html'">
+      <img class="card-img-top" src="../images/adidas_kadin.jpeg" alt="Card image" style="width: 100%;">
+      <div class="card-body">
+        <h4 class="card-title">ADIDAS</h4>
+        <p class="card-text">Adidas kadın ayakkabısı</p>
+        <p class="card-text">679.90TL</p>
+    </div>
+  </div>
+  <div class="card container" style="width:100%; max-width:300px; "onclick="location.href='ayrintiU.html'">
+    <img class="card-img-top" src="../images/hummel_bayan.jpeg" alt="Card image" style="width: 100%;">
+    <div class="card-body">
+      <h4 class="card-title">HUMMEL</h4>
+      <p class="card-text">Hummel kadın ayakkabısı</p>
+      <p class="card-text">479.90TL</p>
+  </div>
+</div>
+    <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+      <img class="card-img-top" src="../images/cocuk.jpeg" alt="Card image" style="width: 100%;">
+      <div class="card-body">
+        <h4 class="card-title">ADIDAS</h4>
+        <p class="card-text">Adidas erkek çocuk ayakkabısı</p>
+        <p class="card-text">499.90</p>
+    </div>
+  </div>
+  <div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+    <img class="card-img-top" src="../images/kiz_cocuk.jpeg" alt="Card image" style="width: 100%;">
+    <div class="card-body">
+      <h4 class="card-title">JUMP</h4>
+      <p class="card-text">Jump kız çocuk ayakkabısı</p>
+      <p class="card-text">499.90TL</p>
+  </div>
+</div>
+<div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+  <img class="card-img-top" src="../images/top.jpeg" alt="Card image" style="width: 100%;">
+  <div class="card-body">
+    <h4 class="card-title">NIKE</h4>
+    <p class="card-text">Nike basket topu</p>
+    <p class="card-text">179.90TL</p>
+</div>
+</div>
+<div class="card container" style="width:100%; max-width:300px; " onclick="location.href='ayrintiU.html'">
+<img class="card-img-top" src="../images/nike.jpeg" alt="Card image" style="width: 100%;">
+<div class="card-body">
+  <h4 class="card-title">NIKE</h4>
+  <p class="card-text">Nike mavi cüzdan</p>
+  <p class="card-text">119.90TL</p>
+</div>
+</div>
+    </div>
+    
+  <div class="container bg-dark">
+    <div class="row">
+      <div class="col-sm-10 text-white">
+        
+        <br><p>Adres: Baruthane Caddesi No:143 ŞİŞLİ/İSTANBUL</p>
+        <p>TEL:0212 230 62 07</p>
+        <p>E MAİL:unalkundura@unalkundura.com</p>
+        <br>
+      </div>
+      <div class="col-sm-2 text-white">
+        <p></p>
+        <img src="../images/qrcode.png" width="100%" height="150px">
+        <p></p>
+      </div>
+    </div>
+    
+  </div>
+       </div>
+       
+    </body>
+</html>

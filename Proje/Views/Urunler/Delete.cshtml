@@ -1,0 +1,57 @@
+﻿@model Proje.Models.Table
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/Adm.cshtml";
+}
+
+<h2>Ürün silme</h2>
+
+<h3>Gerçekten silmek istediğine emin misin?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunCinsiyet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunCinsiyet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunResim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunResim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunFiyat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunFiyat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UrunMarka)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrunMarka)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-danger" /> |
+            @Html.ActionLink("listeye geri dön", "Index")
+        </div>
+    }
+</div>

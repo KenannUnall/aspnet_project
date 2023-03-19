@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+    </head>
+    <body>
+       <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="mainU.html"><img src="../images/unal.png" style="max-height: 75px; margin: 0px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <form class="d-flex ms-auto" >
+                    <input class="form-control me-2" type="text" placeholder="Ara">
+                    <button class="btn btn-primary" type="button">Ara</button>
+                </form>
+                <div class="ms-auto" style="float: left; ">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" style="margin-bottom: 12px;" href="sepetU.html">Sepet</a>
+                      </li>
+                </div>
+                <div  class="mb-2">
+                    <li class="nav-item dropdown  ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="../images/1.jpeg" alt="Logo" style="width:30px; margin-right:4px ;" class="rounded-pill">Kenan</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../main.html">Çıkış Yap</a></li>
+                        </ul>
+                      </li>
+                </div>
+              </div>
+              
+            </div>
+          </nav>
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark " style="padding: 0px;" >
+        <div class="container-fluid" >
+    <div class="collapse navbar-collapse" id="collapsibleNavbar"  >
+      <ul class="navbar-nav">
+        <li class="nav-item" >
+            <a class="nav-link" href="mainU.html">ANASAYFA</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kadinU.html">KADIN</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="erkekU.html">ERKEK</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="cocukU.html">ÇOÇUK</a>
+        </li>
+      
+        <li class="nav-item">
+            <a class="nav-link" href="sporMalzemeleriU.html">SPOR MALZEMELERİ</a>
+        </li>
+      </ul>
+    </div>
+        </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" style="text-align: center; ">
+                <h1 style="margin-right: 20px;">SEPET</h1>
+                </div>  
+            </div>
+            <div class="row" style="border: black 3px solid; padding: 5px; margin-top: 5px;">
+                <div class="col-sm-5 m-auto" style="text-align: center; max-width: 350px; width: 100%; ">
+                    <a class="navbar-brand" href="mainU.html" style="float: left; margin: 0px;"><img src="../images/nike_erkek.jpeg" style="max-height: 100px; margin: 0px;"></a>
+                    <p style="margin-bottom: 0px; margin-top: 25px;">Nike erkek ayakkabısı</p>
+                    <p >Numara: 42</p>
+                </div>  
+                <div class="col-sm-3 m-auto ms-5" style="text-align: center; max-width: 250px; width: 100%;">
+                    <div onclick="azalt1()" class=" m-auto" style="border: black 2px solid; float: left;  width: 50px; max-width: 50px; height: 50px;">
+                        <img src="../images/minus.jpg" style="max-height: 46px;">
+                    </div>
+                    <div class="m-auto" style="padding-top: 5px; border-top: black 2px solid; border-bottom: black 2px solid; float: left; width: 100px; max-width: 100px;height: 50px;">
+                        <h3 id="adet1">1</h3>
+                    </div>
+                    <div onclick="arttir1()" class="m-auto" style="border: black 2px solid; float: left; width: 50px; max-width: 50px;height: 50px;">
+                        <img src="../images/plus.jpg" style="max-height: 46px;">
+                    </div>
+                </div>  
+                <div class="col-sm-3 m-auto" style="text-align: center; max-width: 200px; width: 100%;">
+                    <p class="fiyatA">Fiyat:</p><p id="tutar1" class="fiyatA">890</p><p class="fiyatA">TL</p>
+                </div>  
+                <div class="col-sm-1 m-auto" style="text-align: center; max-width: 100px; width: 100%;">
+                    <img src="../images/cop.jpg" style="max-height: 50px;">
+                </div>            
+            </div>
+            <div class="row" style="border: black 3px solid; padding: 5px; margin-top: 5px;">
+                <div class="col-sm-5 m-auto" style="text-align: center; max-width: 350px; width: 100%; ">
+                    <a class="navbar-brand" href="mainU.html" style="float: left; margin: 0px;"><img src="../images/puma_kadin.jpeg" style="max-height: 100px; margin: 0px;"></a>
+                    <p style="margin-bottom: 0px; margin-top: 25px;">Puma kadın ayakkabısı</p>
+                    <p >Numara: 38</p>
+                </div>  
+                <div class="col-sm-3 m-auto ms-5" style="text-align: center; max-width: 250px; width: 100%;">
+                    <div onclick="azalt2()" class=" m-auto" style="border: black 2px solid; float: left;  width: 50px; max-width: 50px; height: 50px;">
+                        <img src="../images/minus.jpg" style="max-height: 46px;">
+                    </div>
+                    <div class="m-auto" style="padding-top: 5px; border-top: black 2px solid; border-bottom: black 2px solid; float: left; width: 100px; max-width: 100px;height: 50px;">
+                        <h3 id="adet2">1</h3>
+                    </div>
+                    <div onclick="arttir2()" class="m-auto" style="border: black 2px solid; float: left; width: 50px; max-width: 50px;height: 50px;">
+                        <img src="../images/plus.jpg" style="max-height: 46px;">
+                    </div>
+                </div>  
+                <div class="col-sm-3 m-auto" style="text-align: center; max-width: 200px; width: 100%;">
+                    <p class="fiyatA">Fiyat:</p><p id="tutar2" class="fiyatA">860</p><p class="fiyatA">TL</p>
+                </div>  
+                <div class="col-sm-1 m-auto" style="text-align: center; max-width: 100px; width: 100%;">
+                    <img src="../images/cop.jpg" style="max-height: 50px;">
+                </div>            
+            </div>
+            <div class="row" style="border: black 3px solid; padding: 5px; margin-top: 5px;">
+                <div class="col-sm-5 m-auto" style="text-align: center; max-width: 350px; width: 100%; ">
+                    <a class="navbar-brand" href="mainU.html" style="float: left; margin: 0px;"><img src="../images/puma_erkek.jpeg" style="max-height: 100px; margin: 0px;"></a>
+                    <p style="margin-bottom: 0px; margin-top: 25px;">Puma erkek ayakkabısı</p>
+                    <p >Numara: 44</p>
+                </div>  
+                <div class="col-sm-3 m-auto ms-5" style="text-align: center; max-width: 250px; width: 100%;">
+                    <div onclick="azalt3()" class=" m-auto" style="border: black 2px solid; float: left;  width: 50px; max-width: 50px; height: 50px;">
+                        <img src="../images/minus.jpg" style="max-height: 46px;">
+                    </div>
+                    <div class="m-auto" style="padding-top: 5px; border-top: black 2px solid; border-bottom: black 2px solid; float: left; width: 100px; max-width: 100px;height: 50px;">
+                        <h3 id="adet3">1</h3>
+                    </div>
+                    <div onclick="arttir3()" class="m-auto" style="border: black 2px solid; float: left; width: 50px; max-width: 50px;height: 50px;">
+                        <img src="../images/plus.jpg" style="max-height: 46px;">
+                    </div>
+                </div>  
+                <div class="col-sm-3 m-auto" style="text-align: center; max-width: 200px; width: 100%;">
+                    <p class="fiyatA">Fiyat:</p><p id="tutar3" class="fiyatA">790</p><p class="fiyatA">TL</p>
+                </div>  
+                <div class="col-sm-1 m-auto" style="text-align: center; max-width: 100px; width: 100%;">
+                    <img src="../images/cop.jpg" style="max-height: 50px;">
+                </div>            
+            </div>
+            <div class="row" style="border: black 3px solid; padding: 5px; margin-top: 5px;">
+                <div class="col-sm-9">
+                    <p></p>
+                    <h1 style="float: left;">Toplam fiyat:</h1><h1 id="AnaTutar" style="float: left;">0</h1><h1 style="float: left;">TL</h1>
+                </div>
+                <div style="text-align: center;" class="col-sm-3">
+                    <p></p>
+                    <a class="alt" href="odemeSayfasi.html" ><h2 style="border: 2px black solid; margin: auto;">SEPETİ ONAYLA</h2></a>
+                </div>
+            </div>
+        </div>
+  <div class="container" style="border: 2px solid black; margin-top: 5px;">
+  </div>
+  <div class="container bg-dark">
+    <div class="row">
+      <div class="col-sm-10 text-white">
+        <br><p>Adres: Baruthnae Caddesi No:101 ŞİŞLİ/İSTANBUL</p>
+        <p>TEL:0212 230 62 07</p>
+        <p>E MAİL:unalkundura@unalkundura.com</p>
+        <br>
+      </div>
+      <div class="col-sm-2 text-white">
+        <p></p>
+        <img src="../images/qrcode.png" width="100%" height="150px">
+        <p></p>
+      </div>
+    </div>
+  </div>
+       </div>
+    </body>
+    <script>
+        var a =document.getElementById("adet1").innerHTML;
+        a=parseFloat(a);
+        var b=document.getElementById("adet2").innerHTML;
+        b=parseFloat(b);
+        var c =document.getElementById("adet3").innerHTML;
+        c=parseFloat(c);
+        var AnaTutar =document.getElementById("AnaTutar").innerHTML;
+        AnaTutar=parseFloat(AnaTutar);
+        var Tutar1 =document.getElementById("tutar1").innerHTML;
+        Tutar1=parseFloat(Tutar1);
+        var Tutar2 =document.getElementById("tutar2").innerHTML;
+        Tutar2=parseFloat(Tutar2);
+        var Tutar3 =document.getElementById("tutar3").innerHTML;
+        Tutar3=parseFloat(Tutar3);
+        AnaTutar=Tutar1+Tutar2+Tutar3;
+        document.getElementById("AnaTutar").innerHTML=AnaTutar;
+        function arttir1(){
+         if(10>a){
+            a=a+1;
+            document.getElementById("adet1").innerHTML=a;
+            document.getElementById("tutar1").innerHTML=Tutar1*a;
+            AnaTutar=AnaTutar+Tutar1;
+            document.getElementById("AnaTutar").innerHTML=AnaTutar;
+         }
+        }
+        function azalt1(){
+          if(a>1){
+           a=a-1;
+           document.getElementById("adet1").innerHTML=a;
+           document.getElementById("tutar1").innerHTML=Tutar1*a;
+           AnaTutar=AnaTutar-Tutar1;
+           document.getElementById("AnaTutar").innerHTML=AnaTutar;
+          }
+          
+        }
+        function arttir2(){
+         if(10>b){
+           b=b+1;
+           document.getElementById("adet2").innerHTML=b;
+           document.getElementById("tutar2").innerHTML=Tutar2*b;
+           AnaTutar=AnaTutar+Tutar2;
+           document.getElementById("AnaTutar").innerHTML=AnaTutar;
+         
+         }
+        }
+        function azalt2(){
+          if(b>1){
+           b=b-1;
+           document.getElementById("adet2").innerHTML=b;
+           document.getElementById("tutar2").innerHTML=Tutar2*b;
+           AnaTutar=AnaTutar-Tutar2;
+             document.getElementById("AnaTutar").innerHTML=AnaTutar;
+          }
+          
+        }
+        function arttir3(){
+         if(10>c){
+           c=c+1;
+           document.getElementById("adet3").innerHTML=c;
+           document.getElementById("tutar3").innerHTML=Tutar3*c;
+           AnaTutar=AnaTutar+Tutar3;
+             document.getElementById("AnaTutar").innerHTML=AnaTutar;
+    
+         }
+        }
+        function azalt3(){
+          if(c>1){
+           c=c-1;
+           document.getElementById("adet3").innerHTML=c;
+           document.getElementById("tutar3").innerHTML=Tutar3*c;
+           AnaTutar=AnaTutar-Tutar3;
+            document.getElementById("AnaTutar").innerHTML=AnaTutar;
+
+          }
+          
+        }
+       
+     </script>
+</html>

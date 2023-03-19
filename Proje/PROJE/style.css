@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+}
+.nav-link{
+    font-size: 18px;
+}
+.alt:hover{
+    color: black;
+}
+.col-sm-2{
+    text-align: center;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 100px;
+  height: 100px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 400px;
+  height: 400px;
+}
+
+.card-img-top{
+    height: 300px;
+
+}
+.card{
+    margin-bottom: 5px;
+}
+.fiyatA{
+    margin-bottom: 0px;  
+    font-weight: bold;
+    float: left;
+}
+.admin li{
+    border: 2px solid black;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 0px;
+    height: 50px;
+    padding: 7px;
+    color: black;
+}

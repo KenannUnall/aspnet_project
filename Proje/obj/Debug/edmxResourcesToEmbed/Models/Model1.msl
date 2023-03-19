@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UrunlerModelStoreContainer" CdmEntityContainer="UrunlerEntities1">
+    <EntitySetMapping Name="Resim">
+      <EntityTypeMapping TypeName="UrunlerModel.Resim">
+        <MappingFragment StoreEntitySet="Resim">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="resim1" ColumnName="resim" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="UrunlerModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunCinsiyet" ColumnName="UrunCinsiyet" />
+          <ScalarProperty Name="UrunResim" ColumnName="UrunResim" />
+          <ScalarProperty Name="UrunFiyat" ColumnName="UrunFiyat" />
+          <ScalarProperty Name="UrunMarka" ColumnName="UrunMarka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
